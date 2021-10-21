@@ -266,8 +266,6 @@ def updateUrl():
             #                                                                                   'encryptedurl': encrypted})
             db.session.execute(update_query)
             db.session.commit()
-            # cur.execute(update_query)
-            # connection.commit()
             return redirect('/home')
         else:
             return render_template("editUrl.html", url=url, encrypted=encrypted, id=id, error='short url already exist')
