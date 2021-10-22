@@ -276,6 +276,9 @@ def updateUrl():
 def deleteUrl():
     if 'userid' in session:
         id = request.form.get('id')
+        # connection = connect(host="localhost", database="kartik", user="root", password="kartik14")
+        # cur = connection.cursor()
+        # delete_query = "delete from urlinfo where pk_urlId=" + id
         db.session.query(urlinfo).filter_by(pk_urlId=id).delete()
         db.session.commit()
         return redirect('/home')
