@@ -281,8 +281,6 @@ def deleteUrl():
         # delete_query = "delete from urlinfo where pk_urlId=" + id
         db.session.query(urlinfo).filter_by(pk_urlId=id).delete()
         db.session.commit()
-        # cur.execute(delete_query)
-        # connection.commit()
         return redirect('/home')
     return render_template('login.html')
 
