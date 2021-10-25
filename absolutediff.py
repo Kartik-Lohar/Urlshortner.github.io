@@ -1,7 +1,7 @@
 def findMax(arr,start,end):
 	max=arr[start]
 	for i in range(start+1,end+1):
-		if arr[i]>max:
+		if max < arr[i]:
 			max=arr[i]
 	return max
 
