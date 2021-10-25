@@ -8,7 +8,7 @@ def findMax(arr,start,end):
 def findMin(arr,start,end):
 	min=arr[start]
 	for i in range(start+1,end+1):
-		if arr[i]<min:
+		if min>arr[i]:
 			min=arr[i]
 	return min
 
