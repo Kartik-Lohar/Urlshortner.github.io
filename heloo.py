@@ -5,7 +5,10 @@ def main():
 
 def hello():
    """hello function for pushing branch"""
-   return 
+   return hii()
+
+def hii():
+   return 10
 
    
 main()
