@@ -8,6 +8,7 @@ def hello():
    return hii()
 
 def hii():
+   print("how are you bro")
    return 10
 
    
