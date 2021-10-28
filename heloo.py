@@ -9,6 +9,7 @@ def hello():
 
 def hii():
    print("how are you bro")
+   s=input()
    return 10
 
    
