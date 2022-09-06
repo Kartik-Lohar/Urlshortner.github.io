@@ -213,8 +213,8 @@ def home():
         # email = session['email']
         id = session['userid']
         print(id)
-        connection = connect(host="localhost", database="kartik", user="root", password="kartik14")
-        cur = connection.cursor()
+        #connection = connect(host="localhost", database="kartik", user="root", password="kartik14")
+        #cur = connection.cursor()
         # creator_query = "select * from urlinfo where created_by={}".format(id)
         creator_query = db.session.query(urlinfo).filter_by(created_by=id).all()
         # cur.execute(creator_query)
