@@ -5,7 +5,9 @@ Solution: We have taken refernece of bitly.com who also done the same work like 
 
 At first we have made the UI whose main aim to take the long url from the user.
 
-![Screenshot (30)](https://user-images.githubusercontent.com/87935713/211783062-1b0e12b0-885b-4613-ab4b-5883911eeeff.png)
+![Screenshot (6)](https://user-images.githubusercontent.com/87935713/211787682-c68af169-9cba-4ad1-b3b0-99b925904076.png)
+
+![Screenshot (7)](https://user-images.githubusercontent.com/87935713/211787756-84b4eab0-7343-4bb7-a110-56878aca16d6.png)
 
 This is the UI which takes url from the user.
 
@@ -23,12 +25,18 @@ When user click on this link then in flask automatically dynamicUrl function wil
 So mainly this function is connecting our short url with long url.
 
 
-![Screenshot (31)](https://user-images.githubusercontent.com/87935713/211783164-e3200840-50b8-4e15-8dc0-7c182797f735.png)
+![Screenshot (8)](https://user-images.githubusercontent.com/87935713/211787893-b6211a13-823f-4d5b-b0ea-d37b84499a5a.png)
+
+![Screenshot (9)](https://user-images.githubusercontent.com/87935713/211787957-43186e46-014c-4892-a8d5-62bcc29de538.png)
+
 
 In this web applicaction login and sign up facility can also be used by user.
 When a user login to our site then after login he or she can access the table of all the url which were shorted by him.
 
-![Screenshot (32)](https://user-images.githubusercontent.com/87935713/211783181-3737f9b9-fca8-4064-bc24-e3e3d9376286.png)
+![Screenshot (10)](https://user-images.githubusercontent.com/87935713/211788032-60586ec5-668b-4103-ab9f-79c218f81d40.png)
+
+![Screenshot (11)](https://user-images.githubusercontent.com/87935713/211788051-aa92290f-77ff-44a9-9435-887d533108cb.png)
+
 
 User can also edit the urls and delete the urls according to its need.
 
